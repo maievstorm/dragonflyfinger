@@ -1,6 +1,6 @@
 {
     "database": {
-        "host": "127.0.0.1",
+        "host": "pgdbconfg-postgresql",
         "user": "postgres",
         "password": "fAYkndBMnj",
         "database": "dpacrawlconf"
