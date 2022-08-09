@@ -20,4 +20,4 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./app /code
 
 # 
-RUN /hash.sh
+RUN /code/hash.sh
