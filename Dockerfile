@@ -1,6 +1,5 @@
  
-FROM registry.apps.xplat.fis.com.vn/continuumio/miniconda3:latest
-FROM alpine:latest
+FROM frolvlad/alpine-miniconda3:latest
 
 # 
 WORKDIR /code
