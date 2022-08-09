@@ -5,6 +5,7 @@ FROM frolvlad/alpine-miniconda3:latest
 WORKDIR /code
 
 # 
+RUN apt-get install -y gcc libav-tools
 COPY ./requirements.txt /code/requirements.txt
 
 #
