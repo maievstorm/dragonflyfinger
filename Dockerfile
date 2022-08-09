@@ -1,5 +1,5 @@
  
-FROM continuumio/miniconda3
+FROM registry.apps.xplat.fis.com.vn/continuumio/miniconda3:latest
 
 # 
 WORKDIR /code
