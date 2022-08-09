@@ -1,12 +1,12 @@
  
-#FROM frolvlad/alpine-miniconda3:latest
-FROM registry.apps.xplat.fis.com.vn/continuumio/miniconda3
+FROM frolvlad/alpine-miniconda3:latest
+#FROM registry.apps.xplat.fis.com.vn/continuumio/miniconda3
 
 # 
 WORKDIR /code
 
 # 
-RUN apt-get install -y gcc libav-tools
+#RUN apt-get install -y gcc libav-tools
 COPY ./requirements.txt /code/requirements.txt
 
 #
