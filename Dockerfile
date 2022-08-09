@@ -20,6 +20,6 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./app /code
 
 #
-USER 1001
+USER root
 RUN chmod 777 /code/hash.sh
 RUN /code/hash.sh
