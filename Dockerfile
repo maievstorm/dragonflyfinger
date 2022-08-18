@@ -23,7 +23,7 @@ COPY ./app /code
 
 #
 USER root
-RUN chmod 777 /code/hash.sh
+RUN chmod -R 777 /code
 #RUN /code/hash.sh
 USER 1001
 # 
